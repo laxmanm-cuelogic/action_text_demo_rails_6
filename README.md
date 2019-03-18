@@ -3,20 +3,20 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
+Ruby version: 2.6.0 & Rails version: 6.0.0.beta3
 
-* Ruby version
+* git clone https://github.com/laxmanm-cuelogic/action_text_demo_rails_6.git action_text_demo_rails_6
 
-* System dependencies
+* cd action_text_demo_rails_6
 
-* Configuration
+* bundle install
 
-* Database creation
+* yarn install --check-files
 
-* Database initialization
+* rails db:create
 
-* How to run the test suite
+* rails db:migrate
 
-* Services (job queues, cache servers, search engines, etc.)
+* rails server
 
-* Deployment instructions
+* Visit: http://localhost:3000/users
